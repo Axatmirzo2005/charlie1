@@ -1,0 +1,244 @@
+@media screen and (max-width: 991px) {
+    .nav-open-links {
+        padding-top: 6em;
+        padding-bottom: 6em;
+    }
+
+    .hero-section {
+        padding-top: 20em;
+    }
+
+    h1 {
+        font-size: 12em;
+    }
+
+    p {
+        font-size: 1.25em;
+    }
+
+    .scroll-indicator-wrap {
+        margin-bottom: 6em;
+    }
+
+    h2 {
+        font-size: 8em;
+        letter-spacing: -0.4vw;
+    }
+
+    .title-large {
+        font-size: 8em;
+        letter-spacing: -0.4vw;
+    }
+
+    h3 {
+        font-size: 58px;
+        letter-spacing: -0.25vw;
+    }
+
+    .title-xsmall {
+        font-size: 24px;
+    }
+
+    .text-size {
+        font-size: 12.25px;
+    }
+
+    .title-tiny {
+        font-size: 12.25px;
+    }
+
+    .text-para {
+        max-width: 384px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .nav {
+        padding-top: 3em;
+        padding-bottom: 3em;
+    }
+
+    .nav-logo {
+        width: 9em;
+    }
+
+    .nav-open-wrapper {
+        padding-top: 15em;
+        padding-bottom: 10em;
+    }
+
+    .nav-open-links {
+        padding-top: 0em;
+        padding-bottom: 0em;
+    }
+
+    .nav-open-grid {
+        grid-column-gap: 1.5em;
+        grid-row-gap: 2rem;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+    }
+
+    .open-nav-link {
+        font-size: 10em;
+        letter-spacing: -0.05em;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .nav-secondary-link {
+        width: 80%;
+        grid-column-gap: 2rem;
+        grid-row-gap: 2rem;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .nav-secondary-item {
+        font-size: 2rem;
+        letter-spacing: -0.025em;
+    }
+
+    .hero-title-wrapper {
+        flex-direction: column;
+    }
+
+    .hero-title-wrapper.mg-top {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+
+    .scroll-indicator-wrap {
+        margin-bottom: 6em;
+        font-size: 2.2em;
+    }
+
+    .text-block {
+        max-width: 35em;
+    }
+
+    p {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 4rem;
+        letter-spacing: -0.15rem;
+    }
+
+    .project-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .project-skills {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tag-text-style {
+        font-size: 15px;
+    }
+
+    .tag-text-style.first {
+        margin-bottom: 5px;
+    }
+
+    .title-large {
+        font-size: 64px;
+        letter-spacing: -0.15rem;
+    }
+
+    .process-section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .process-title-wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .process-grid {
+        grid-template-areas:
+        "card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1 card-1"
+        "card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2 card-2"
+        "card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3 card-3"
+        "card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4 card-4"
+        "card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5 card-5";
+        grid-template-columns: 8.333333333333334% 8.333333333333334% 8.333333333333334% 8.333333333333334%
+        8.333333333333334% 8.333333333333334% 8.333333333333334% 8.333333333333334% 8.333333333333334% 
+        8.333333333333334% 8.333333333333334% 8.333333333333334%;
+    }
+
+    .card-content-grid {
+        grid-template-columns: 3fr;
+        grid-template-rows: auto auto;
+    }
+
+    .card-keywords {
+        display: flex;
+        justify-content: space-between;
+        justify-self: stretch;
+    }
+
+    .title-tiny {
+        font-size: 20px;
+    }
+
+    .text-para {
+        margin-top: 0.5em;
+        margin-bottom: 0em;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .nav {
+        padding-bottom: 5em;
+    }
+
+    .nav-logo {
+        width: 15em;
+    }
+
+    .nav-open-wrapper {
+        padding-top: 18em;
+    }
+
+    .open-nav-link {
+        font-size: 15em;
+        letter-spacing: -0.05em;
+    }
+
+    .hero-section {
+        padding-top: 7.5rem;
+    }
+
+    .default-wrapper {
+        margin-right: 1.25rem;
+        margin-left: 1.25rem;
+    }
+
+    h1 {
+        font-size: 18em;
+    }
+
+    p {
+        font-size: 4em;
+    }
+
+    .text-block {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .scroll-indicator-wrap {
+        margin-bottom:8em;
+        font-size: 4em;
+    }
+
+    .card-keywords {
+        display: none;
+    }
+}
